@@ -1,0 +1,81 @@
+/* (c) 2013 ok yp energy forum */
+
+.speaker-box {
+    background-color: white;
+    color: black;
+
+    border: 2px solid black;
+
+    padding: 10px;
+}
+
+.speaker-box + .speaker-box {
+    margin-top: 25px;
+}
+
+.speaker-box img {
+    float: left;
+    margin: 5px;
+    width: 200px;
+}
+
+.speaker-info {
+    margin-left: 214px;
+    padding: 5px;
+    position: relative;
+}
+
+.speaker-info h2 {
+    font-family: 'Josefin Sans', 'Futura', sans-serif;
+    font-size: xx-large;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 0px;
+}
+
+.speaker-info h3 {
+    font-size: x-large;
+    font-variant: small-caps;
+    color: firebrick;
+
+    text-align: center;
+}
+
+.speaker-info h4 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 0px;
+}
+
+.speaker-info h4:before {
+    font-size: larger;
+    content: "{ ";
+}
+
+.speaker-info h4:after {
+    font-size: larger;
+    content: " }";
+}
+
+.schedule-link {
+    clear: both;
+    text-align: center;
+    font-family: 'Josefin Sans', 'Futura', sans-serif;
+    font-size: larger;
+
+    background: #3a619a;
+    margin: 5px 5px 0px 5px;
+    padding: 5px;
+}
+
+.schedule-link a {
+    color: white;
+}
+
+@media (max-width: 1023px) {
+    .speaker-info h4 {
+        position: inherit;
+        text-align: right;
+    }
+}

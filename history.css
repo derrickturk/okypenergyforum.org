@@ -1,0 +1,17 @@
+/* (c) 2013 ok yp energy forum */
+
+#speaker-list {
+    margin-left: 0;
+    padding-left: 1em;
+}
+
+#speaker-list li {
+    list-style-type: none;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.speaker-name {
+    color: firebrick;
+    font-weight: bold;
+}

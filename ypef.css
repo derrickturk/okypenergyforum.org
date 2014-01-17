@@ -1,0 +1,170 @@
+/* (c) 2013 ok yp energy forum */
+
+body {
+    background-color: white;
+    font-family: 'Cabin', 'Gill Sans', 'Gill Sans MT', sans-serif;
+}
+
+.header, .footer {
+    width: 100%;
+    color: #3a6191;
+    text-align: center;
+
+    font-family: 'Josefin Sans', 'Futura', sans-serif;
+
+    clear: both;
+}
+
+.footer {
+    padding-top: 50px;
+    font-size: larger;
+}
+
+.logo a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.logo a img {
+    outline: none;
+    border: 0; /* death to IE! */
+}
+
+.logo a:visited {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.sidebar {
+    float: left;
+
+    max-width: 20%;
+}
+
+.sidebar-box {
+    background-color: #3a6191;
+    color: white;
+
+    font-size: large;
+
+    text-align:center;
+    font-family: 'Josefin Sans', 'Futura', sans-serif;
+
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sidebar-box + .sidebar-box {
+    margin-top: 20px;
+}
+
+.sidebar-box a {
+    color: white;
+    font-weight: bold;
+}
+
+.sidebar-box ul {
+    margin-left: 1.5em;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.content-box {
+    float: left;
+
+    margin-left: 20px;
+    max-width: 779px;
+    width: 100%;
+}
+
+#linkbar {
+    background-color: #3a6191;
+    clear: both;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#linkbar a {
+    color: white;
+    font-variant: small-caps;
+    font-size: large;
+    font-style: none;
+    padding: 5px 1em 5px 1em;
+
+    text-decoration: none;
+}
+
+#linkbar a:hover {
+    background-color: slategray;
+}
+
+#linkbar a:focus {
+    background-color: slategray;
+}
+
+#container {
+    max-width: 1024px;
+    padding-top: 25px;
+    margin: auto;
+}
+
+.image-box {
+    max-width: 230px;
+    text-align: center;
+    font-size: small;
+    color: #3a6191;
+}
+
+.image-box img {
+    border: 5px solid #3a6191;
+}
+
+.image-box.right {
+    float: right;
+    margin-left: 10px;
+}
+
+.image-box.left {
+    float: left;
+    margin-right: 10px;
+}
+
+@media (max-width: 1023px) {
+    #container {
+        max-width: none;
+        width: 100%;
+    }
+
+    .sidebar {
+        float: none;
+        clear: left;
+        max-width: none;
+
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sidebar-box {
+        display: block;
+        text-align: center;
+    }
+
+    .sidebar-box ul {
+        text-align: center;
+    }
+
+    .content-box {
+        float: none;
+        width: 100%;
+        margin: auto;
+    }
+
+    #linkbar a {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}

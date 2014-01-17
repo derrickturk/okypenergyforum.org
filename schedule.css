@@ -1,0 +1,29 @@
+/* (c) 2013 dwt | terminus data science */
+
+#schedule-table {
+    width: 100%;
+    text-align: center;
+}
+
+#schedule-table th {
+    background-color: #3a6191;
+    color: white;
+}
+
+#schedule-table tr.break {
+    background-color: silver;
+}
+
+#schedule-table tr.plenary {
+    color: firebrick;
+}
+
+#schedule-table tr.breakout {
+    color: darkblue;
+}
+
+#schedule-table tr.subhead {
+    font-weight: bold;
+    font-size: larger;
+    background-color: burlywood;
+}

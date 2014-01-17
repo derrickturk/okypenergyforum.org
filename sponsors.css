@@ -1,0 +1,68 @@
+/* (c) 2013 ok yp energy forum */
+
+/* never, ever, ever, call anything "sponsor-box"
+ * AdBlock will ruin your life. */
+.sponsor-group {
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+.sponsor-logo {
+    display: inline-block;
+
+    margin-left: 25px;
+    margin-right: 25px;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+.sponsor-logo img {
+    max-width: 200px;
+    max-height: 150px;
+
+    outline: none;
+    border :0; /* kill border for images in links on IE */
+}
+
+.tier {
+    font-family: 'Josefin Sans', 'Futura', sans-serif;
+    text-align: center;
+
+    font-variant: small-caps;
+
+    width: 100%;
+    background-color: #316191;
+
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+.sponsor-group + .tier {
+    margin-top: 1.5em;
+}
+
+#platinum {
+    color: #e5e4e2;
+}
+
+#gold {
+    color: #e6dd65;
+}
+
+#silver {
+    color: silver;
+}
+
+#other {
+    color: white;
+}
+
+@media (max-width: 750px) {
+    .sponsor-logo + .sponsor-logo {
+        margin-top: 2em;
+    }
+}
